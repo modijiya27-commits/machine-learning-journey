@@ -8,30 +8,32 @@ As a BCA student, my goal is not just to learn algorithms but to understand how 
 
 ---
 
-## 🎯 Objectives
+# 🎯 Objectives
 
 * Build strong Machine Learning fundamentals
-* Learn by implementing concepts from scratch
+* Learn through hands-on implementation
 * Document learning publicly
 * Create a structured portfolio of notebooks and projects
 * Develop practical problem-solving skills using data
 
 ---
 
-## 📚 Topics Covered
+# 📚 Topics Covered
 
-### Machine Learning Foundations
+## Machine Learning Foundations
 
 * [x] Introduction to Machine Learning
+* [x] AI vs ML vs Deep Learning
 * [x] Supervised vs Unsupervised Learning
 * [x] Features vs Target Variables
 * [x] Train-Test Split
-* [ ] Linear Regression
+* [x] Label Encoding
+* [x] Linear Regression
+* [x] Model Evaluation Metrics (MAE, MSE, RMSE, R²)
+
+## Machine Learning Algorithms
+
 * [ ] Logistic Regression
-* [ ] Model Evaluation Metrics
-
-### Machine Learning Algorithms
-
 * [ ] Decision Trees
 * [ ] Random Forest
 * [ ] K-Nearest Neighbors (KNN)
@@ -39,7 +41,7 @@ As a BCA student, my goal is not just to learn algorithms but to understand how 
 * [ ] Naive Bayes
 * [ ] K-Means Clustering
 
-### Advanced Concepts
+## Advanced Concepts
 
 * [ ] Feature Scaling
 * [ ] Cross Validation
@@ -48,26 +50,28 @@ As a BCA student, my goal is not just to learn algorithms but to understand how 
 * [ ] Underfitting
 * [ ] Bias vs Variance
 
-### Projects
+## End-to-End Projects
 
-* [ ] End-to-End ML Project 1
-* [ ] End-to-End ML Project 2
-* [ ] End-to-End ML Project 3
+* [ ] Student Performance Classification
+* [ ] Customer Segmentation
+* [ ] Sales Prediction
+* [ ] Real-World ML Project
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 * Python
 * Pandas
 * NumPy
 * Matplotlib
+* Seaborn
 * Scikit-Learn
 * Jupyter Notebook
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 00_ML_Foundations/
@@ -85,22 +89,98 @@ As a BCA student, my goal is not just to learn algorithms but to understand how 
 
 ---
 
-## 📈 Learning Log
+# 📈 Learning Log
 
-### Day 31
+## Day 31
 
-Introduction to Machine Learning
+### Introduction to Machine Learning
 
-### Day 32
+Topics Covered:
 
-* Supervised Learning
-* Unsupervised Learning
-* Features and Target Variables
-* Train-Test Split
+* Traditional Programming vs Machine Learning
+* AI vs ML vs Deep Learning
+* Types of Machine Learning
+* Machine Learning Workflow
+* Exploratory Data Analysis (EDA)
+* Data Cleaning
+* Label Encoding
+* One-Hot Encoding
 
 ---
 
-## 💡 Learning Approach
+## Day 32
+
+### Machine Learning Foundations
+
+Topics Covered:
+
+* Features and Target Variables
+* Train-Test Split
+* Understanding Regression Problems
+* Model Building Workflow
+* Introduction to Evaluation Metrics
+
+---
+
+## Day 33
+
+### Student Performance Prediction using Linear Regression
+
+Project Overview:
+
+Built my first Machine Learning prediction model using a Student Performance dataset.
+
+Topics Covered:
+
+* Data Preprocessing
+* Feature Selection
+* Label Encoding
+* Train-Test Split
+* Linear Regression
+* Predictions
+* MAE (Mean Absolute Error)
+* MSE (Mean Squared Error)
+* RMSE (Root Mean Squared Error)
+* R² Score
+
+Outcome:
+
+Successfully trained and evaluated a regression model to predict student exam scores while understanding the importance of data preprocessing and model evaluation.
+
+---
+
+# 📌 Projects Completed
+
+## Student Performance Prediction
+
+### Objective
+
+Predict student exam scores using machine learning techniques.
+
+### Skills Applied
+
+* Data Cleaning
+* Data Preprocessing
+* Feature Selection
+* Label Encoding
+* Train-Test Split
+* Linear Regression
+* Model Evaluation
+
+### Evaluation Metrics
+
+* MAE
+* MSE
+* RMSE
+* R² Score
+
+### Key Learning
+
+Data preparation is just as important as model building. Proper preprocessing directly impacts model performance and prediction quality.
+
+---
+
+# 💡 Learning Approach
 
 Each notebook in this repository follows a structured format:
 
@@ -115,14 +195,30 @@ The goal is to build understanding before complexity.
 
 ---
 
-## 🌱 Current Status
+# 🌱 Current Progress
 
-Learning Machine Learning one concept at a time.
+Completed:
 
-This repository will continue to grow as I explore new concepts, algorithms, and projects.
+* Machine Learning Fundamentals
+* Train-Test Split
+* Label Encoding
+* Linear Regression
+* Regression Evaluation Metrics
+
+Currently Learning:
+
+* Logistic Regression
+* Classification Problems
+* Confusion Matrix
+* Accuracy
+* Precision
+* Recall
+* F1 Score
 
 ---
 
-### If you're learning too
+## 🤝 Connect & Learn Together
 
-Feel free to explore the notebooks, follow along, and learn with me.
+If you're also learning Machine Learning, feel free to explore the notebooks, follow along, and learn with me.
+
+Every expert was once a beginner. This repository is a record of that journey.
