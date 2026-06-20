@@ -7,8 +7,11 @@
 * [x] Features vs Target Variables
 * [x] Train-Test Split
 * [x] Linear Regression
-* [ ] Logistic Regression
 * [x] Model Evaluation Metrics
+* [x] Feature Engineering
+* [x] Normalization
+* [x] Standardization
+* [ ] Logistic Regression
 
 ### Machine Learning Algorithms
 
@@ -21,7 +24,7 @@
 
 ### Advanced Concepts
 
-* [ ] Feature Scaling
+* [x] Feature Scaling
 * [ ] Cross Validation
 * [ ] Hyperparameter Tuning
 * [ ] Overfitting
@@ -30,6 +33,7 @@
 
 ### Projects
 
+* [x] Student Performance Prediction
 * [ ] End-to-End ML Project 1
 * [ ] End-to-End ML Project 2
 * [ ] End-to-End ML Project 3
@@ -77,6 +81,40 @@ Model Results:
 * MSE = 6.11
 * R² = 0.60
 
+### Day 35–36
+
+#### Learning Concepts
+
+* Linear Regression Theory
+* Best Fit Line
+* Model Coefficients
+* Prediction Process
+* Evaluation Metrics
+* Feature Scaling Concepts
+
+### Day 37
+
+#### Student Performance Prediction Project
+
+* Performed Correlation Analysis
+* Selected Features based on relationships with Exam Score
+* Created engineered features:
+
+  * Study_Efficiency
+  * Academic_Consistency
+  * Study_Sleep_Ratio
+* Applied Feature Engineering
+* Applied Normalization using MinMaxScaler
+* Applied Standardization using StandardScaler
+* Trained and evaluated multiple Linear Regression models
+
+Results:
+
+* Baseline R² = 0.6416
+* Feature Engineered R² = 0.6517
+* Normalized R² = 0.6517
+* Standardized R² = 0.6517
+
 Key Insight:
 
-Building a model is only half the job. Evaluating and understanding model performance is equally important.
+Feature Engineering provided a measurable improvement in model performance, while Normalization and Standardization did not significantly affect Linear Regression accuracy in this dataset.
