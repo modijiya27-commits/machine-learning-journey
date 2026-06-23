@@ -4,7 +4,8 @@
 * [ ] Random Forest
 * [x] K-Nearest Neighbors (KNN)
 * [ ] Support Vector Machines (SVM)
-* [ ] Naive Bayes
+* [x] Naive Bayes
+* [x] Logistic Regression
 * [ ] K-Means Clustering
 
 ---
@@ -18,59 +19,70 @@
 * [ ] Overfitting
 * [ ] Underfitting
 * [ ] Bias vs Variance
+* [x] Model Comparison & Evaluation
 
 ---
 
-## Day 39
+# Day 40
 
-### K-Nearest Neighbors (KNN)
+## Machine Learning Model Comparison
 
-#### Dataset
+### Dataset
 
 Titanic Dataset
 
-#### Concepts Applied
+### Concepts Applied
 
-* Distance-Based Learning
-* Euclidean Distance
-* KNN Classification
+* Classification Algorithms
 * Feature Scaling using StandardScaler
 * Model Evaluation
+* Precision, Recall, and F1-Score
+* Confusion Matrix
+* Model Comparison
 * Hyperparameter Tuning
 
-#### Model Development
+### Models Implemented
 
-* Applied StandardScaler to numerical features
-* Trained KNN Classifier
-* Generated survival predictions
-* Evaluated model using Accuracy, Confusion Matrix, and Classification Report
-* Tested K values from 1 to 20
-* Identified the optimal K value based on model accuracy
+* Logistic Regression
+* Naive Bayes
+* K-Nearest Neighbors (KNN)
+* Decision Tree
 
-#### Model Performance
+### Model Performance
 
 | Model               | Accuracy |
 | ------------------- | -------- |
-| Logistic Regression | 77.09%   |
-| KNN                 | 79.89%   |
+| Logistic Regression | 77%      |
+| Decision Tree       | 78%      |
+| Naive Bayes         | 80%      |
+| KNN                 | 82%      |
 
-#### Hyperparameter Tuning Results
+### Best Performing Model
 
-* Tested K values from 1 to 20
+🏆 K-Nearest Neighbors (KNN)
+
 * Best K Value = 18
 * Highest Accuracy Achieved = 82.12%
 
-#### Classification Report
+### Classification Metrics
 
-| Class       | Precision | Recall | F1-Score |
-| ----------- | --------- | ------ | -------- |
-| No Survival | 0.80      | 0.88   | 0.84     |
-| Survival    | 0.80      | 0.69   | 0.74     |
+| Model               | Precision | Recall | F1-Score |
+| ------------------- | --------- | ------ | -------- |
+| Logistic Regression | 0.77      | 0.76   | 0.76     |
+| Decision Tree       | 0.78      | 0.77   | 0.77     |
+| Naive Bayes         | 0.80      | 0.79   | 0.79     |
+| KNN                 | 0.82      | 0.80   | 0.81     |
 
-#### Key Insights
+### Key Insights
 
-* KNN outperformed Logistic Regression on the Titanic dataset.
-* Feature scaling significantly improved KNN performance.
-* Passenger survival patterns were effectively captured using neighborhood-based classification.
-* Selecting an appropriate K value improved model accuracy and reduced prediction variance.
-* Hyperparameter tuning demonstrated the importance of model optimization.
+* KNN achieved the highest performance among all tested models.
+* Feature scaling was critical for distance-based algorithms such as KNN.
+* Naive Bayes delivered competitive performance despite its independence assumption.
+* Decision Trees provided interpretable rule-based predictions.
+* Logistic Regression served as a strong baseline classifier.
+* Comparing multiple models provided better understanding than evaluating a single algorithm.
+* Model selection should be based on both performance metrics and problem requirements.
+
+### Key Learning
+
+Machine Learning is not about finding a single "best" algorithm. Different models make different assumptions about data, and comparing their strengths and weaknesses is essential for selecting the most suitable solution.
