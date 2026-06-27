@@ -4,16 +4,17 @@ Welcome to my Machine Learning learning repository.
 
 This repository documents my journey of learning Machine Learning from scratch through hands-on implementation, notebooks, experiments, visualizations, and projects as part of my **#50DaysOfNotADataScientistYet** challenge.
 
-The objective is not only to build machine learning models, but also to understand the mathematics, intuition, evaluation techniques, and practical implementation behind them.
+The goal is not just to use machine learning libraries, but to understand the intuition, mathematics, preprocessing techniques, model evaluation, optimization, and interpretation behind every algorithm.
 
 ---
 
 # 🎯 Objectives
 
 * Build strong Machine Learning fundamentals
-* Understand algorithms beyond library functions
-* Learn model evaluation and validation techniques
-* Solve real-world datasets
+* Understand the intuition behind ML algorithms
+* Learn data preprocessing and feature engineering
+* Master model evaluation and validation techniques
+* Apply concepts on real-world datasets
 * Build an industry-ready Machine Learning portfolio
 
 ---
@@ -28,7 +29,6 @@ The objective is not only to build machine learning models, but also to understa
 * [x] Train-Test Split
 * [x] Linear Regression
 * [x] Logistic Regression
-* [x] Model Evaluation Metrics
 * [x] Feature Engineering
 * [x] Feature Scaling
 * [x] Normalization
@@ -72,13 +72,24 @@ The objective is not only to build machine learning models, but also to understa
 
 ---
 
+# 📊 Statistical Concepts Applied
+
+* Descriptive Statistics
+* Probability
+* Correlation Analysis
+* Data Distributions
+* Bias–Variance Tradeoff
+* Feature Scaling
+
+---
+
 # 📂 Projects
 
 * [x] Student Performance Prediction
 * [x] Titanic Survival Prediction
 * [ ] Google Play Store Machine Learning
-* [ ] End-to-End ML Project
-* [ ] Customer Segmentation using K-Means
+* [ ] Customer Segmentation (K-Means)
+* [ ] End-to-End Machine Learning Project
 
 ---
 
@@ -114,9 +125,23 @@ The objective is not only to build machine learning models, but also to understa
 
 ---
 
+# 📘 Repository Contents
+
+| Notebook                            | Description                                                                            |
+| ----------------------------------- | -------------------------------------------------------------------------------------- |
+| Linear_Regression_Basics.ipynb      | Linear Regression implementation and evaluation                                        |
+| Logistic_Regression.ipynb           | Binary classification using Logistic Regression                                        |
+| KNN_Classification.ipynb            | K-Nearest Neighbors algorithm and hyperparameter tuning                                |
+| Naive_Bayes.ipynb                   | Naive Bayes classification                                                             |
+| Model_Evaluation.ipynb              | Accuracy, Precision, Recall, F1 Score & Confusion Matrix                               |
+| Cross_Validation.ipynb              | K-Fold, Stratified K-Fold, LOOCV & Time Series Cross Validation                        |
+| Decision_Trees_Classification.ipynb | Decision Tree implementation, visualization, feature importance & overfitting analysis |
+
+---
+
 # 📖 Learning Log
 
-## Day 40 — Machine Learning Model Comparison
+## ✅ Day 40 — Machine Learning Model Comparison
 
 ### Dataset
 
@@ -129,10 +154,10 @@ Titanic Dataset
 * K-Nearest Neighbors
 * Decision Tree
 * Hyperparameter Tuning
-* Confusion Matrix
-* Precision, Recall & F1-Score
 * Feature Scaling
 * Model Comparison
+* Confusion Matrix
+* Precision, Recall & F1 Score
 
 ### Best Model
 
@@ -143,29 +168,27 @@ Titanic Dataset
 
 ### Key Learning
 
-Comparing multiple algorithms is more valuable than relying on a single model. Every algorithm has different assumptions, strengths, and weaknesses.
+Comparing multiple models provides a better understanding of their strengths and weaknesses than relying on a single algorithm.
 
 ---
 
-## Day 41 — Missing Value Handling
+## ✅ Day 41 — Missing Value Handling
 
 ### Concepts Learned
 
 * Missing Value Analysis
-* Mean Imputation
-* Median Imputation
-* Mode Imputation
+* Mean, Median & Mode Imputation
 * SimpleImputer
 * Data Leakage
 * Feature vs Target Missing Values
 
 ### Key Learning
 
-Missing values should never be handled blindly. The imputation strategy depends on both the feature type and the machine learning problem.
+The choice of imputation strategy depends on the feature type and the machine learning problem. Missing target values should generally not be imputed.
 
 ---
 
-## Day 42 — Bias, Variance & Clustering Fundamentals
+## ✅ Day 42 — Bias, Variance & Clustering Fundamentals
 
 ### Concepts Learned
 
@@ -178,11 +201,11 @@ Missing values should never be handled blindly. The imputation strategy depends 
 
 ### Key Learning
 
-A good model is one that generalizes well. High accuracy on training data alone does not indicate good performance.
+High training accuracy alone is not a good indicator of model quality. A good model generalizes well to unseen data.
 
 ---
 
-## Day 43 — Cross Validation
+## ✅ Day 43 — Cross Validation
 
 ### Concepts Learned
 
@@ -194,23 +217,72 @@ A good model is one that generalizes well. High accuracy on training data alone 
 
 ### Key Learning
 
-A single train-test split can produce misleading results. Cross validation provides a more reliable estimate of how well a model will perform on unseen data.
+Cross validation provides a more reliable estimate of model performance than a single train-test split.
+
+---
+
+## ✅ Day 44 — Decision Trees
+
+### Dataset
+
+Titanic Dataset
+
+### Concepts Learned
+
+* Decision Tree Classification
+* Gini Impurity
+* Entropy
+* Information Gain
+* Tree Visualization
+* Feature Importance
+* Decision Tree Depth
+* Underfitting vs Overfitting
+
+### Implemented
+
+* Missing Value Handling
+* Label Encoding
+* Decision Tree Classifier
+* Classification Report
+* Confusion Matrix
+* Feature Importance Analysis
+* Decision Tree Visualization
+* Accuracy vs Tree Depth Analysis
+
+### Model Performance
+
+* Test Accuracy: **79.33%**
+* Best Tree Depth: **9**
+* Best Test Accuracy: **81%**
+
+### Key Insights
+
+* Sex was the most influential feature in predicting survival.
+* Fare and Age were also strong predictors.
+* Increasing tree depth consistently improved training accuracy.
+* Testing accuracy peaked around depth **9**, after which it declined due to overfitting.
+
+### Key Learning
+
+Decision Trees are highly interpretable but prone to overfitting. Limiting tree depth helps improve generalization while maintaining good predictive performance.
 
 ---
 
 # 🚀 Upcoming Topics
 
 * Random Forest
-* Support Vector Machines
+* Support Vector Machines (SVM)
 * K-Means Clustering Implementation
 * Ensemble Learning
-* End-to-End Machine Learning Projects
+* Principal Component Analysis (PCA)
+* Pipeline & GridSearchCV
+* End-to-End Machine Learning Project
 * Model Deployment
 
 ---
 
 # 🌱 Learning in Public
 
-This repository is part of my **#50DaysOfNotADataScientistYet** challenge, where I document my progress, projects, notebooks, and key learnings every day.
+This repository is part of my **#50DaysOfNotADataScientistYet** challenge, where I share my daily progress, implementations, projects, visualizations, and key learnings while building a strong foundation in Machine Learning.
 
 If you're learning Machine Learning too, feel free to explore the notebooks, suggest improvements, or learn along!
