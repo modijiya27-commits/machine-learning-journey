@@ -1,31 +1,122 @@
+# 🤖 Machine Learning Journey
+
+Welcome to my Machine Learning learning repository.
+
+This repository documents my journey of learning Machine Learning from scratch through hands-on implementation, notebooks, experiments, visualizations, and projects as part of my **#50DaysOfNotADataScientistYet** challenge.
+
+The objective is not only to build machine learning models, but also to understand the mathematics, intuition, evaluation techniques, and practical implementation behind them.
+
+---
+
+# 🎯 Objectives
+
+* Build strong Machine Learning fundamentals
+* Understand algorithms beyond library functions
+* Learn model evaluation and validation techniques
+* Solve real-world datasets
+* Build an industry-ready Machine Learning portfolio
+
+---
+
+# 📚 Topics Covered
+
+## Machine Learning Foundations
+
+* [x] Introduction to Machine Learning
+* [x] Supervised vs Unsupervised Learning
+* [x] Features vs Target Variables
+* [x] Train-Test Split
+* [x] Linear Regression
+* [x] Logistic Regression
+* [x] Model Evaluation Metrics
+* [x] Feature Engineering
+* [x] Feature Scaling
+* [x] Normalization
+* [x] Standardization
+* [x] Missing Value Imputation
+* [x] Label Encoding
+* [x] One-Hot Encoding
+
+---
+
 ## Machine Learning Algorithms
 
-* [ ] Decision Trees
-* [ ] Random Forest
-* [x] K-Nearest Neighbors (KNN)
-* [ ] Support Vector Machines (SVM)
-* [x] Naive Bayes
+* [x] Linear Regression
 * [x] Logistic Regression
+* [x] K-Nearest Neighbors (KNN)
+* [x] Naive Bayes
+* [x] Decision Trees
+* [ ] Random Forest
+* [ ] Support Vector Machines (SVM)
 * [ ] K-Means Clustering
 
 ---
 
-## Advanced Concepts
+## Model Evaluation & Optimization
 
-* [x] Feature Engineering
-* [x] Feature Scaling
-* [ ] Cross Validation
+* [x] Accuracy
+* [x] Precision
+* [x] Recall
+* [x] F1 Score
+* [x] Confusion Matrix
+* [x] Model Comparison
 * [x] Hyperparameter Tuning
-* [ ] Overfitting
-* [ ] Underfitting
-* [ ] Bias vs Variance
-* [x] Model Comparison & Evaluation
+* [x] Cross Validation
+* [x] K-Fold Cross Validation
+* [x] Stratified K-Fold
+* [x] Leave-One-Out Cross Validation (LOOCV)
+* [x] Time Series Cross Validation
+* [x] Bias vs Variance
+* [x] Underfitting
+* [x] Overfitting
 
 ---
 
-# Day 40
+# 📂 Projects
 
-## Machine Learning Model Comparison
+* [x] Student Performance Prediction
+* [x] Titanic Survival Prediction
+* [ ] Google Play Store Machine Learning
+* [ ] End-to-End ML Project
+* [ ] Customer Segmentation using K-Means
+
+---
+
+# 🛠 Tech Stack
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Jupyter Notebook
+
+---
+
+# 📁 Repository Structure
+
+```text
+00_ML_Foundations/
+01_Linear_Regression/
+02_Model_Evaluation/
+03_Feature_Engineering/
+04_Feature_Scaling/
+05_Logistic_Regression/
+06_Model_Comparison/
+07_Cross_Validation/
+08_Decision_Trees/
+09_Random_Forest/
+10_SVM/
+11_KMeans/
+12_Projects/
+```
+
+---
+
+# 📖 Learning Log
+
+## Day 40 — Machine Learning Model Comparison
 
 ### Dataset
 
@@ -33,56 +124,93 @@ Titanic Dataset
 
 ### Concepts Applied
 
-* Classification Algorithms
-* Feature Scaling using StandardScaler
-* Model Evaluation
-* Precision, Recall, and F1-Score
-* Confusion Matrix
-* Model Comparison
-* Hyperparameter Tuning
-
-### Models Implemented
-
 * Logistic Regression
 * Naive Bayes
-* K-Nearest Neighbors (KNN)
+* K-Nearest Neighbors
 * Decision Tree
+* Hyperparameter Tuning
+* Confusion Matrix
+* Precision, Recall & F1-Score
+* Feature Scaling
+* Model Comparison
 
-### Model Performance
+### Best Model
 
-| Model               | Accuracy |
-| ------------------- | -------- |
-| Logistic Regression | 77%      |
-| Decision Tree       | 78%      |
-| Naive Bayes         | 80%      |
-| KNN                 | 82%      |
+🏆 **K-Nearest Neighbors (KNN)**
 
-### Best Performing Model
-
-🏆 K-Nearest Neighbors (KNN)
-
-* Best K Value = 18
-* Highest Accuracy Achieved = 82.12%
-
-### Classification Metrics
-
-| Model               | Precision | Recall | F1-Score |
-| ------------------- | --------- | ------ | -------- |
-| Logistic Regression | 0.77      | 0.76   | 0.76     |
-| Decision Tree       | 0.78      | 0.77   | 0.77     |
-| Naive Bayes         | 0.80      | 0.79   | 0.79     |
-| KNN                 | 0.82      | 0.80   | 0.81     |
-
-### Key Insights
-
-* KNN achieved the highest performance among all tested models.
-* Feature scaling was critical for distance-based algorithms such as KNN.
-* Naive Bayes delivered competitive performance despite its independence assumption.
-* Decision Trees provided interpretable rule-based predictions.
-* Logistic Regression served as a strong baseline classifier.
-* Comparing multiple models provided better understanding than evaluating a single algorithm.
-* Model selection should be based on both performance metrics and problem requirements.
+* Best K = 18
+* Accuracy = **82.12%**
 
 ### Key Learning
 
-Machine Learning is not about finding a single "best" algorithm. Different models make different assumptions about data, and comparing their strengths and weaknesses is essential for selecting the most suitable solution.
+Comparing multiple algorithms is more valuable than relying on a single model. Every algorithm has different assumptions, strengths, and weaknesses.
+
+---
+
+## Day 41 — Missing Value Handling
+
+### Concepts Learned
+
+* Missing Value Analysis
+* Mean Imputation
+* Median Imputation
+* Mode Imputation
+* SimpleImputer
+* Data Leakage
+* Feature vs Target Missing Values
+
+### Key Learning
+
+Missing values should never be handled blindly. The imputation strategy depends on both the feature type and the machine learning problem.
+
+---
+
+## Day 42 — Bias, Variance & Clustering Fundamentals
+
+### Concepts Learned
+
+* Bias vs Variance
+* Underfitting
+* Overfitting
+* K-Means Clustering
+* WCSS
+* Elbow Method
+
+### Key Learning
+
+A good model is one that generalizes well. High accuracy on training data alone does not indicate good performance.
+
+---
+
+## Day 43 — Cross Validation
+
+### Concepts Learned
+
+* Cross Validation
+* K-Fold Cross Validation
+* Stratified K-Fold
+* Leave-One-Out Cross Validation (LOOCV)
+* Time Series Cross Validation
+
+### Key Learning
+
+A single train-test split can produce misleading results. Cross validation provides a more reliable estimate of how well a model will perform on unseen data.
+
+---
+
+# 🚀 Upcoming Topics
+
+* Random Forest
+* Support Vector Machines
+* K-Means Clustering Implementation
+* Ensemble Learning
+* End-to-End Machine Learning Projects
+* Model Deployment
+
+---
+
+# 🌱 Learning in Public
+
+This repository is part of my **#50DaysOfNotADataScientistYet** challenge, where I document my progress, projects, notebooks, and key learnings every day.
+
+If you're learning Machine Learning too, feel free to explore the notebooks, suggest improvements, or learn along!
