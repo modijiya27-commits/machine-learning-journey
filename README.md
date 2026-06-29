@@ -46,7 +46,7 @@ The goal is not just to use machine learning libraries, but to understand the in
 * [x] K-Nearest Neighbors (KNN)
 * [x] Naive Bayes
 * [x] Decision Trees
-* [ ] Random Forest
+* [x] Random Forest
 * [ ] Support Vector Machines (SVM)
 * [ ] K-Means Clustering
 
