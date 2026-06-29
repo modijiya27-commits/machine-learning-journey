@@ -2,20 +2,37 @@
 
 Welcome to my Machine Learning learning repository.
 
-This repository documents my journey of learning Machine Learning from scratch through hands-on implementation, notebooks, experiments, visualizations, and projects as part of my **#50DaysOfNotADataScientistYet** challenge.
+This repository documents my journey of learning Machine Learning from scratch through hands-on implementation, mathematical intuition, visualizations, experiments, and real-world projects as part of my **#50DaysOfNotADataScientistYet** challenge.
 
-The goal is not just to use machine learning libraries, but to understand the intuition, mathematics, preprocessing techniques, model evaluation, optimization, and interpretation behind every algorithm.
+The objective is not only to build machine learning models but also to understand the mathematics, intuition, preprocessing techniques, evaluation methods, optimization strategies, and interpretation behind every algorithm.
 
 ---
 
 # 🎯 Objectives
 
 * Build strong Machine Learning fundamentals
-* Understand the intuition behind ML algorithms
-* Learn data preprocessing and feature engineering
-* Master model evaluation and validation techniques
-* Apply concepts on real-world datasets
+* Understand the mathematics and intuition behind ML algorithms
+* Master data preprocessing and feature engineering
+* Learn model evaluation and validation techniques
+* Apply Machine Learning to real-world datasets
 * Build an industry-ready Machine Learning portfolio
+
+---
+
+# 💡 Skills Acquired
+
+* Data Cleaning & Preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Feature Scaling
+* Missing Value Handling
+* Classification & Regression
+* Machine Learning Model Building
+* Hyperparameter Tuning
+* Model Evaluation
+* Cross Validation
+* Model Comparison
+* Data Visualization
 
 ---
 
@@ -30,10 +47,10 @@ The goal is not just to use machine learning libraries, but to understand the in
 * [x] Linear Regression
 * [x] Logistic Regression
 * [x] Feature Engineering
+* [x] Missing Value Handling
 * [x] Feature Scaling
 * [x] Normalization
 * [x] Standardization
-* [x] Missing Value Imputation
 * [x] Label Encoding
 * [x] One-Hot Encoding
 
@@ -59,8 +76,9 @@ The goal is not just to use machine learning libraries, but to understand the in
 * [x] Recall
 * [x] F1 Score
 * [x] Confusion Matrix
-* [x] Model Comparison
+* [x] ROC Curve & AUC
 * [x] Hyperparameter Tuning
+* [x] Model Comparison
 * [x] Cross Validation
 * [x] K-Fold Cross Validation
 * [x] Stratified K-Fold
@@ -79,7 +97,7 @@ The goal is not just to use machine learning libraries, but to understand the in
 * Correlation Analysis
 * Data Distributions
 * Bias–Variance Tradeoff
-* Feature Scaling
+* Normal Distribution
 
 ---
 
@@ -100,6 +118,7 @@ The goal is not just to use machine learning libraries, but to understand the in
 * Pandas
 * Matplotlib
 * Seaborn
+* Plotly
 * Scikit-Learn
 * Jupyter Notebook
 
@@ -110,16 +129,16 @@ The goal is not just to use machine learning libraries, but to understand the in
 ```text
 00_ML_Foundations/
 01_Linear_Regression/
-02_Model_Evaluation/
+02_Logistic_Regression/
 03_Feature_Engineering/
 04_Feature_Scaling/
-05_Logistic_Regression/
+05_Model_Evaluation/
 06_Model_Comparison/
 07_Cross_Validation/
 08_Decision_Trees/
 09_Random_Forest/
-10_SVM/
-11_KMeans/
+10_Support_Vector_Machines/
+11_KMeans_Clustering/
 12_Projects/
 ```
 
@@ -127,15 +146,28 @@ The goal is not just to use machine learning libraries, but to understand the in
 
 # 📘 Repository Contents
 
-| Notebook                            | Description                                                                            |
-| ----------------------------------- | -------------------------------------------------------------------------------------- |
-| Linear_Regression_Basics.ipynb      | Linear Regression implementation and evaluation                                        |
-| Logistic_Regression.ipynb           | Binary classification using Logistic Regression                                        |
-| KNN_Classification.ipynb            | K-Nearest Neighbors algorithm and hyperparameter tuning                                |
-| Naive_Bayes.ipynb                   | Naive Bayes classification                                                             |
-| Model_Evaluation.ipynb              | Accuracy, Precision, Recall, F1 Score & Confusion Matrix                               |
-| Cross_Validation.ipynb              | K-Fold, Stratified K-Fold, LOOCV & Time Series Cross Validation                        |
-| Decision_Trees_Classification.ipynb | Decision Tree implementation, visualization, feature importance & overfitting analysis |
+| Notebook                           | Description                                                                             |
+| ---------------------------------- | --------------------------------------------------------------------------------------- |
+| Linear_Regression_Basics.ipynb     | Linear Regression implementation and evaluation                                         |
+| Logistic_Regression.ipynb          | Binary classification using Logistic Regression                                         |
+| KNN_Classification.ipynb           | K-Nearest Neighbors implementation and hyperparameter tuning                            |
+| Naive_Bayes.ipynb                  | Naive Bayes classification                                                              |
+| Decision_Tree_Classification.ipynb | Decision Tree implementation, visualization, feature importance and tree depth analysis |
+| Random_Forest_Classification.ipynb | Random Forest implementation, feature importance and ensemble learning                  |
+| Model_Comparison.ipynb             | Comparison of multiple classification algorithms                                        |
+| Cross_Validation.ipynb             | K-Fold, Stratified K-Fold, LOOCV and Time Series Cross Validation                       |
+
+---
+
+# 📈 Progress Summary
+
+* ✅ 40+ Machine Learning concepts learned
+* ✅ 5 Classification algorithms implemented
+* ✅ Hyperparameter tuning performed
+* ✅ Cross Validation techniques applied
+* ✅ Multiple real-world datasets explored
+* ✅ Model comparison completed
+* ✅ Real-world Machine Learning projects built
 
 ---
 
@@ -150,25 +182,16 @@ Titanic Dataset
 ### Concepts Applied
 
 * Logistic Regression
+* KNN
 * Naive Bayes
-* K-Nearest Neighbors
 * Decision Tree
+* Random Forest
 * Hyperparameter Tuning
-* Feature Scaling
 * Model Comparison
-* Confusion Matrix
-* Precision, Recall & F1 Score
-
-### Best Model
-
-🏆 **K-Nearest Neighbors (KNN)**
-
-* Best K = 18
-* Accuracy = **82.12%**
 
 ### Key Learning
 
-Comparing multiple models provides a better understanding of their strengths and weaknesses than relying on a single algorithm.
+Comparing multiple machine learning models provides a more reliable way to identify the most suitable algorithm for a given dataset.
 
 ---
 
@@ -180,11 +203,10 @@ Comparing multiple models provides a better understanding of their strengths and
 * Mean, Median & Mode Imputation
 * SimpleImputer
 * Data Leakage
-* Feature vs Target Missing Values
 
 ### Key Learning
 
-The choice of imputation strategy depends on the feature type and the machine learning problem. Missing target values should generally not be imputed.
+The choice of imputation strategy depends on the feature type and problem. Missing target values should generally not be imputed.
 
 ---
 
@@ -195,13 +217,13 @@ The choice of imputation strategy depends on the feature type and the machine le
 * Bias vs Variance
 * Underfitting
 * Overfitting
-* K-Means Clustering
+* K-Means Fundamentals
 * WCSS
 * Elbow Method
 
 ### Key Learning
 
-High training accuracy alone is not a good indicator of model quality. A good model generalizes well to unseen data.
+A model should generalize well to unseen data instead of simply achieving high training accuracy.
 
 ---
 
@@ -212,12 +234,12 @@ High training accuracy alone is not a good indicator of model quality. A good mo
 * Cross Validation
 * K-Fold Cross Validation
 * Stratified K-Fold
-* Leave-One-Out Cross Validation (LOOCV)
+* Leave-One-Out Cross Validation
 * Time Series Cross Validation
 
 ### Key Learning
 
-Cross validation provides a more reliable estimate of model performance than a single train-test split.
+Cross Validation provides a more reliable estimate of model performance by evaluating the model across multiple train-validation splits.
 
 ---
 
@@ -233,56 +255,47 @@ Titanic Dataset
 * Gini Impurity
 * Entropy
 * Information Gain
-* Tree Visualization
 * Feature Importance
-* Decision Tree Depth
-* Underfitting vs Overfitting
-
-### Implemented
-
-* Missing Value Handling
-* Label Encoding
-* Decision Tree Classifier
-* Classification Report
-* Confusion Matrix
-* Feature Importance Analysis
-* Decision Tree Visualization
-* Accuracy vs Tree Depth Analysis
-
-### Model Performance
-
-* Test Accuracy: **79.33%**
-* Best Tree Depth: **9**
-* Best Test Accuracy: **81%**
-
-### Key Insights
-
-* Sex was the most influential feature in predicting survival.
-* Fare and Age were also strong predictors.
-* Increasing tree depth consistently improved training accuracy.
-* Testing accuracy peaked around depth **9**, after which it declined due to overfitting.
+* Tree Visualization
+* Tree Depth Analysis
 
 ### Key Learning
 
-Decision Trees are highly interpretable but prone to overfitting. Limiting tree depth helps improve generalization while maintaining good predictive performance.
+Decision Trees are interpretable models but are susceptible to overfitting. Controlling tree depth helps improve generalization.
 
 ---
 
 # 🚀 Upcoming Topics
 
-* Random Forest
 * Support Vector Machines (SVM)
-* K-Means Clustering Implementation
+* K-Means Clustering
 * Ensemble Learning
 * Principal Component Analysis (PCA)
-* Pipeline & GridSearchCV
-* End-to-End Machine Learning Project
-* Model Deployment
+* Pipelines
+* GridSearchCV
+* RandomizedSearchCV
+* Gradient Boosting
+* XGBoost
+* Model Deployment using Flask/FastAPI
+
+---
+
+# ▶️ Getting Started
+
+```bash
+git clone <repository-url>
+
+cd Machine-Learning
+
+pip install -r requirements.txt
+
+jupyter notebook
+```
 
 ---
 
 # 🌱 Learning in Public
 
-This repository is part of my **#50DaysOfNotADataScientistYet** challenge, where I share my daily progress, implementations, projects, visualizations, and key learnings while building a strong foundation in Machine Learning.
+This repository is part of my **#50DaysOfNotADataScientistYet** challenge, where I document my daily learning through notebooks, visualizations, projects, and practical implementations.
 
-If you're learning Machine Learning too, feel free to explore the notebooks, suggest improvements, or learn along!
+The goal is to build a strong Machine Learning foundation while creating an industry-ready portfolio that reflects both conceptual understanding and hands-on experience.
